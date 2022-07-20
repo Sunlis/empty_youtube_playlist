@@ -1,0 +1,15 @@
+{
+  "name": "empty_youtube_playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quickstart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seandohring@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "google-auth-library": "^8.1.1",
+    "googleapis": "^105.0.0"
+  }
+}
