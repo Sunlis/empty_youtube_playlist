@@ -1,1 +1,7 @@
 Auth code from https://developers.google.com/youtube/v3/quickstart/nodejs with some basic API quota handling logic
+
+Playlist ID must be manually set in quickstart.js
+
+Must provide a `client_secret.json` for your YouTube API. See instructions here: https://developers.google.com/youtube/v3/quickstart/nodejs
+
+Run as `node quickstart.js` and follow the prompts
