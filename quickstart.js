@@ -100,7 +100,7 @@ function storeToken(token) {
 // equal cost. List calls are typically 1, but delete calls are 50.
 // https://developers.google.com/youtube/v3/determine_quota_cost
 // In our case playlistItems.list costs 1, but playlistItems.delete costs 50.
-const queriesPerDay = 10000;
+const queriesPerDay = 100000;
 // Delay needed between each query to stay below quota.
 // Must be multiplied by query cost.
 const queryDelay = Math.ceil((24 * 60 * 60 * 1000) / queriesPerDay);
